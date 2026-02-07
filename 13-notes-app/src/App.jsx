@@ -2,22 +2,27 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div className='h-screen bg-black text-white'>
-      <form className='flex flex-col gap-4 p-10 justify-between'>
-        <input
-        type="text"
-        placeholder='Enter Task Heading'
-        className='px-5 py-2 border-2 rounded'
-        />
-       
-       <input 
-       type='text'
-       className='px-5 py-2 h-20 border-2 rounded'
-       placeholder='Enter your details'></input>
+   <div className=''>
+    <form>
+      <h1>Add Notes</h1>
+      <input type='text' placeholder='Enter Notes Heading...'/>
 
-       <button className='bg-white text-black rounded px-5 py-2'>Add Notes</button>
-      </form>
+
+      <textarea type='text' placeholder='Enter Details Here...'
+      
+      
+      />
+
+      <button>Add Note</button>
+    </form>
+
+    <div>
+      <h1>Recent Notes...</h1>
+      <div>
+        
+      </div>
     </div>
+   </div>
   )
 }
 
